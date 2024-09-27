@@ -1,10 +1,10 @@
 
 h1{
-    color: blue;
+    color: rgb(25, 25, 241);
 }
 
 .titulo{
-    color: red;
+    color: rgb(236, 12, 12);
     background-attachment: pink;
     
 }
@@ -24,10 +24,48 @@ h1{
 .faq summary {
     background-color: #454545;
     padding: 16px;
+    color: aqua;
+    cursor: pointer;
+    font-size: 18px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    outline: none;
+
 }
 
 .faq p {
     background-color: #454545;
     padding: 16px;
+    cursor: pointer;
+
     
 }
+
+footer {
+	background-color: #d61818;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+header{
+    background-color: #74d618;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+summary::after {
+    content: "+";
+    font-size: 34px;
+  }
+  
+  details[open] summary::after {
+    content: "X";
+    font-size: 24px;
+  }
+
+  
